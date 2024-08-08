@@ -5,21 +5,63 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="main">
-            <div>
-                <form action="https://www.google.com/search">
-                    <input style="width: 500px" type="text" name="q">
-                    <div class="search">
-                        <input type="submit" value="Google Search">
-                    </div>
-                </form>
-            </div>
-            
+        <div class="nav"> 
+            <button><a href="index.html">Google Search</a></button> 
+            <button><a href="image.html">Google Image</a></button>
         </div>
 
-        <div class="nav">
-            <button><a href="index.html">Google Search</a></button>    
-            <button><a href="image.html">Google Image</a></button>
+        <h5 style="color:red">Advanced Search</h5>
+        <div class="advanced">
+            <form action="https://www.google.com/search">
+                <table style="text-align:left;">
+                    <thead style="text-align: left;">
+                        <tr>
+                            <th>Find pages that match...</th>
+                            <th> </th>
+                            <th>How to use the search box.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Contains all of the following words:</th>
+                            <td><input class="ad_search" type="text" name="as_q"></td>
+                            <td>Enter keyword: golden retriever</td>
+                        </tr>
+                        <tr>
+                            <th>Exactly matches the following words or sentences:</th>
+                            <td><input class="ad_search" type="text" name="as_epq"></td>
+                            <td>Place quotation marks around the exact word: "golden retriever"</td>
+                        </tr>
+                        <tr>
+                            <th>Contains any of the following words:</th>
+                            <td><input class="ad_search" type="text" name="as_oq"></td>
+                            <td>Enter OR between search terms : Small OR Standard</td>
+                        </tr>
+                        <tr>
+                            <th>Does not contain any of the following words:</th>
+                            <td><input class="ad_search" type="text" name="as_eq"></td>
+                            <td>Put a minus sign in front of the words you want to exclude: -gold, -"labrador"</td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td style="text-align: right;">
+                                <input id="sub" type="submit" value="Advanced Search">
+                                <!-- <div class="submit">
+                                    <input style="background-color: #4d90fe;" type="submit" value="Advanced Search"> 
+                                </div> -->
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- <p>Find pages with… <input class="ad_search" type="text" name="as_epq"></p>
+                <input style="width: 500px" type="text" name="as_q">
+                <input style="width: 500px" type="text" name="as_q">
+                <input style="width: 500px" type="text" name="as_q">-->
+                <!-- <div class="submit">
+                    <input style="background-color: #4d90fe;" type="submit" value="Advanced Search"> 
+                </div> -->
+            </form>
+            
         </div>
     </body>
 </html>

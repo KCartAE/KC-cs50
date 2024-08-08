@@ -10,11 +10,30 @@
     bottom: 50%;
 }
 
+.advanced {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    /* justify-content: center;   */
+    /* background-color: blue; */
+    top: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 .search {
     width:100; 
     text-align: center;
     margin-top: 10px;
 }
+
+#sub {
+    background-color: #4d90fe;
+    color:white;
+
+
+}
+
 .nav {
     text-align: right;
     height: 20px;
@@ -25,6 +44,12 @@ input {
     border: 2px solid ;
     height: 40px;
 }
+
+.ad_search {
+    border-radius: 0px;
+    width: 400px;
+}
+
 button {
     border: none;
     background-color: white;

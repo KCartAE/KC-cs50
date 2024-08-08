@@ -6,9 +6,9 @@ Your website must meet the following requirements:
       - [x] Like Google’s own, your search bar should be centered with rounded corners. The search button should also be centered, and should be beneath the search bar.
  - [x] On the Google Image Search page, the user should be able to type in a query, click a search button, and be taken to the Google Image search results for that page.
  - [ ] On the Google Advanced Search page, the user should be able to provide input for the following four fields (taken from Google’s own advanced search options)
-     - [ ] Find pages with… “all these words:”
-     - [ ] Find pages with… “this exact word or phrase:”
-     - [ ] Find pages with… “any of these words:”
+     - [x] Find pages with… “all these words:”
+     - [x] Find pages with… “this exact word or phrase:”
+     - [x] Find pages with… “any of these words:”
      - [ ] Find pages with… “none of these words:”
 - [ ] Like Google’s own Advanced Search page, the four options should be stacked vertically, and all of the text fields should be left aligned.
      - [ ] Consistent with Google’s own CSS, the “Advanced Search” button should be blue with white text.
