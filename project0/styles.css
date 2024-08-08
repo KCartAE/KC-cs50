@@ -7,9 +7,14 @@
     align-items: center;
     position: absolute;
     width: 100%;
-    top: 50%;
+    bottom: 50%;
 }
 
+.search {
+    width:100; 
+    text-align: center;
+    margin-top: 10px;
+}
 .nav {
     text-align: right;
     height: 20px;
@@ -20,3 +25,9 @@ input {
     border: 2px solid ;
     height: 40px;
 }
+button {
+    border: none;
+    background-color: white;
+    
+}
+/* 想要做button toggle的功能 */
