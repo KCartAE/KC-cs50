@@ -11,13 +11,23 @@
         </div>
 
         <div class="main">
-            <form action="https://www.google.com/search?">
-                <input style="width: 500px" type="text" name="q">
+            <form id="myForm" action="https://www.google.com/search">
+                <div class="inputStyle">
+                    <input style="width: 500px" type="text" name="q">
+                </div>
                 <input type="hidden" name="udm" value="2">
                 <div class="search">
-                    <input type="submit" value="Google Image Search">
+                    <input id="gotoResult" type="submit" value="Google Image Search">
                 </div>
             </form>
         </div>
     </body>
 </html>
+
+<script>
+    function focusFunc() {
+        document.getElementById("gotoResult").style.border= "1px";  
+      }
+    let x = document.getElementById("myForm");
+    x.addEventListener("focusin", focusFunc)
+</script>
