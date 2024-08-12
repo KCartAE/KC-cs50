@@ -1,4 +1,3 @@
 ## A query search engine navi to Google search, Google Image, and Google Advance Search
 
- - starting page will be index.html. While can also access through image.html and advanced.html.
- 
+ - These are the course materials following CS50:Web Programming with Python and Javascript.
